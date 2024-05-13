@@ -17,7 +17,7 @@ def read_params(args):
     parser.add_argument('output_file', metavar='OUTPUT_FILE', type=str, help="the file for the output image")
     parser.add_argument('--feature_font_size', dest="feature_font_size", type=int, default=7, help="the file for the output image")
     parser.add_argument('--format', dest="format", choices=["png","svg","pdf"], default='png', type=str, help="the format for the output file")
-    parser.add_argument('--dpi',dest="dpi", type=int, default=72)
+    parser.add_argument('--dpi',dest="dpi", type=int, default=600)
     parser.add_argument('--title',dest="title", type=str, default="")
     parser.add_argument('--title_font_size',dest="title_font_size", type=str, default="12")
     parser.add_argument('--class_legend_font_size',dest="class_legend_font_size", type=str, default="10")
